@@ -2,10 +2,11 @@
 const express = require('express');
 // const inputCheck = require('./utils/inputCheck');
 const db = require('./db/connection');
-// const PORT = process.env.PORT || 3001;
-// const app = express();
+const PORT = process.env.PORT || 3001;
+const app = express();
 // Add near the top of the file
 const apiRoutes = require('./routes/apiRoutes');
+
 
 
 
